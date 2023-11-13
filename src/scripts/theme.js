@@ -19,8 +19,7 @@ export const verifyMode = () => {
     }
 }
 
-darkMode();
-verifyMode();
+
 
 
 

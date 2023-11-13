@@ -43,7 +43,7 @@ const createAlbumCard = (albumData) => {
 
   // CARD
   card.classList.add("album__item");
-
+  card.classList.add("slide");
   // COVER IMG
   albumCoverContainer.classList.add("album__cover-container");
   albumCoverImg.classList.add("album__cover");
@@ -143,3 +143,5 @@ const handleFilterEvents = (albums) => {
 renderGenreItems(genresList);
 handleFilterEvents(albumList);
 renderAlbumCards(albumList);
+darkMode();
+verifyMode();
